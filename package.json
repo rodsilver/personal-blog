@@ -7,6 +7,7 @@
     "build": "ng build",
     "watch": "ng build --watch --configuration development",
     "test": "ng test",
+    "buid-git": "ng build --output-path=docs",
     "serve:ssr:peronal-blog": "node dist/peronal-blog/server/server.mjs"
   },
   "prettier": {
