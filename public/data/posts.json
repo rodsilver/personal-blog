@@ -1,0 +1,32 @@
+[
+  {
+    "slug": "getting-started-with-angular-signals",
+    "title": "Getting Started with Angular Signals",
+    "excerpt": "A deep dive into Angular's new reactive primitive and how it simplifies state management.",
+    "content": "Angular Signals represent a significant shift in how we handle reactivity in Angular applications.\n\n## What are Signals?\n\nSignals are a new reactive primitive that provides a way to express and manage state that changes over time. Unlike Observables, Signals are synchronous and always have a current value.\n\n## Why Signals?\n\n- **Simpler mental model**: No need to think about subscriptions\n- **Better performance**: Fine-grained reactivity means fewer unnecessary re-renders\n- **Easier debugging**: Values are always available synchronously\n\n## Basic Usage\n\n```typescript\nimport { signal, computed } from '@angular/core';\n\n// Create a signal\nconst count = signal(0);\n\n// Read the value\nconsole.log(count()); // 0\n\n// Update the value\ncount.set(1);\ncount.update(v => v + 1);\n\n// Create computed values\nconst doubled = computed(() => count() * 2);\n```\n\n## Conclusion\n\nSignals are a game-changer for Angular development. They provide a simpler, more intuitive way to handle reactive state.",
+    "date": "2024-12-15",
+    "readTime": "8 min read",
+    "tags": ["Angular", "Signals", "State Management"],
+    "published": true
+  },
+  {
+    "slug": "building-accessible-web-components",
+    "title": "Building Accessible Web Components",
+    "excerpt": "Best practices for creating web components that work for everyone, including keyboard navigation and screen readers.",
+    "content": "Accessibility isn't just a nice-to-have—it's essential for creating inclusive web experiences.\n\n## Why Accessibility Matters\n\nOver 1 billion people worldwide have some form of disability. Building accessible components ensures everyone can use your application.\n\n## Key Principles\n\n### 1. Semantic HTML\n\nAlways use the right HTML element for the job:\n\n```html\n<!-- Bad -->\n<div onclick=\"submit()\">Submit</div>\n\n<!-- Good -->\n<button type=\"submit\">Submit</button>\n```\n\n### 2. Keyboard Navigation\n\nEnsure all interactive elements are keyboard accessible:\n\n- Use `tabindex` appropriately\n- Handle `keydown` events for custom components\n- Provide visible focus indicators\n\n### 3. ARIA Attributes\n\nUse ARIA when native HTML isn't sufficient:\n\n```html\n<button aria-expanded=\"false\" aria-controls=\"menu\">\n  Menu\n</button>\n```\n\n### 4. Color Contrast\n\nMaintain a minimum contrast ratio of 4.5:1 for normal text.\n\n## Testing\n\nUse tools like axe DevTools or Lighthouse to audit your components.",
+    "date": "2024-12-01",
+    "readTime": "12 min read",
+    "tags": ["Accessibility", "Web Components", "A11y"],
+    "published": true
+  },
+  {
+    "slug": "journey-from-javascript-to-typescript",
+    "title": "My Journey from JavaScript to TypeScript",
+    "excerpt": "How switching to TypeScript improved my code quality and developer experience.",
+    "content": "When I first heard about TypeScript, I was skeptical. Why add complexity to JavaScript?\n\n## The Turning Point\n\nAfter spending hours debugging a production issue caused by a typo in a property name, I decided to give TypeScript a try.\n\n## What I Learned\n\n### Types Catch Bugs Early\n\n```typescript\ninterface User {\n  name: string;\n  email: string;\n}\n\nfunction greetUser(user: User) {\n  // TypeScript catches this typo!\n  console.log(`Hello, ${user.naem}`); // Error: Property 'naem' does not exist\n}\n```\n\n### Better IDE Support\n\nAutocompletion, refactoring, and go-to-definition work much better with TypeScript.\n\n### Self-Documenting Code\n\nTypes serve as documentation that stays in sync with your code.\n\n## Tips for Getting Started\n\n1. Start with `strict: false` and gradually enable strict checks\n2. Use `unknown` instead of `any` when the type is uncertain\n3. Leverage type inference—don't over-annotate\n\n## Conclusion\n\nTypeScript has made me a more productive developer. The initial learning curve is worth the long-term benefits.",
+    "date": "2024-11-20",
+    "readTime": "6 min read",
+    "tags": ["TypeScript", "JavaScript", "Learning"],
+    "published": true
+  }
+]

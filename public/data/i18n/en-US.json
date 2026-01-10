@@ -1,0 +1,72 @@
+{
+  "nav": {
+    "home": "Home",
+    "blog": "Blog",
+    "projects": "Projects",
+    "about": "About"
+  },
+  "hero": {
+    "greeting": "Hi, I'm",
+    "name": "Rodrigo",
+    "role": "Software Developer",
+    "description": "I build modern web applications and share my learnings along the way. Welcome to my corner of the internet.",
+    "cta": {
+      "blog": "Read My Blog",
+      "projects": "View Projects"
+    }
+  },
+  "about": {
+    "title": "About Me",
+    "subtitle": "A little bit about who I am and what I do.",
+    "description": "I'm a passionate software developer focused on creating clean, accessible, and performant web applications. I love learning new technologies and sharing knowledge with the community.",
+    "skills": {
+      "title": "Skills & Technologies",
+      "frontend": "Frontend",
+      "backend": "Backend",
+      "tools": "Tools"
+    },
+    "page": {
+      "title": "About Me",
+      "subtitle": "Learn more about my background, experience, and what drives me.",
+      "comingSoon": "Coming soon..."
+    }
+  },
+  "projects": {
+    "title": "Featured Projects",
+    "subtitle": "A selection of projects I've worked on. Each one taught me something new and helped me grow as a developer.",
+    "viewProject": "View Project",
+    "github": "GitHub",
+    "viewAll": "View All Projects",
+    "page": {
+      "title": "Projects",
+      "subtitle": "A collection of my work and side projects.",
+      "comingSoon": "Coming soon..."
+    }
+  },
+  "blog": {
+    "title": "Recent Posts",
+    "subtitle": "Thoughts, tutorials, and lessons learned from my journey as a developer.",
+    "viewAll": "View All Posts",
+    "backToBlog": "Back to Blog",
+    "notFound": {
+      "title": "Post Not Found",
+      "description": "The post you're looking for doesn't exist."
+    },
+    "loading": "Loading posts...",
+    "empty": "No posts yet. Check back soon!",
+    "page": {
+      "title": "Blog",
+      "subtitle": "Thoughts, tutorials, and lessons learned from my journey as a developer."
+    }
+  },
+  "footer": {
+    "description": "Software developer sharing knowledge and building cool things on the web.",
+    "quickLinks": "Quick Links",
+    "connect": "Connect",
+    "copyright": "All rights reserved."
+  },
+  "language": {
+    "switch": "Switch language",
+    "current": "English"
+  }
+}

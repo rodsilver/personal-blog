@@ -1,0 +1,72 @@
+{
+  "nav": {
+    "home": "Inicio",
+    "blog": "Blog",
+    "projects": "Proyectos",
+    "about": "Sobre Mí"
+  },
+  "hero": {
+    "greeting": "Hola, soy",
+    "name": "Rodrigo",
+    "role": "Desarrollador de Software",
+    "description": "Construyo aplicaciones web modernas y comparto mis aprendizajes en el camino. Bienvenido a mi rincón de internet.",
+    "cta": {
+      "blog": "Leer Mi Blog",
+      "projects": "Ver Proyectos"
+    }
+  },
+  "about": {
+    "title": "Sobre Mí",
+    "subtitle": "Un poco sobre quién soy y lo que hago.",
+    "description": "Soy un desarrollador de software apasionado enfocado en crear aplicaciones web limpias, accesibles y de alto rendimiento. Me encanta aprender nuevas tecnologías y compartir conocimiento con la comunidad.",
+    "skills": {
+      "title": "Habilidades y Tecnologías",
+      "frontend": "Frontend",
+      "backend": "Backend",
+      "tools": "Herramientas"
+    },
+    "page": {
+      "title": "Sobre Mí",
+      "subtitle": "Conoce más sobre mi experiencia y lo que me motiva.",
+      "comingSoon": "Próximamente..."
+    }
+  },
+  "projects": {
+    "title": "Proyectos Destacados",
+    "subtitle": "Una selección de proyectos en los que he trabajado. Cada uno me enseñó algo nuevo y me ayudó a crecer como desarrollador.",
+    "viewProject": "Ver Proyecto",
+    "github": "GitHub",
+    "viewAll": "Ver Todos los Proyectos",
+    "page": {
+      "title": "Proyectos",
+      "subtitle": "Una colección de mi trabajo y proyectos personales.",
+      "comingSoon": "Próximamente..."
+    }
+  },
+  "blog": {
+    "title": "Publicaciones Recientes",
+    "subtitle": "Pensamientos, tutoriales y lecciones aprendidas en mi camino como desarrollador.",
+    "viewAll": "Ver Todas las Publicaciones",
+    "backToBlog": "Volver al Blog",
+    "notFound": {
+      "title": "Publicación No Encontrada",
+      "description": "La publicación que buscas no existe."
+    },
+    "loading": "Cargando publicaciones...",
+    "empty": "Aún no hay publicaciones. ¡Vuelve pronto!",
+    "page": {
+      "title": "Blog",
+      "subtitle": "Pensamientos, tutoriales y lecciones aprendidas en mi camino como desarrollador."
+    }
+  },
+  "footer": {
+    "description": "Desarrollador de software compartiendo conocimiento y construyendo cosas geniales en la web.",
+    "quickLinks": "Enlaces Rápidos",
+    "connect": "Conectar",
+    "copyright": "Todos los derechos reservados."
+  },
+  "language": {
+    "switch": "Cambiar idioma",
+    "current": "Español"
+  }
+}
